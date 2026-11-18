@@ -49,10 +49,6 @@ Customer mendaftar, login, lalu memesan makanan dan menentukan lokasi pengantara
 4. `php artisan migrate` (jika sebelumnya sudah pernah migrate versi lama, pakai `php artisan migrate:fresh`)
 5. `php -S localhost:8000 -t public`
 
-## Postman
-
-Import `postman/KantinDigitalApp.postman_collection.json` (Ctrl+O di Postman). Berisi semua endpoint (JSON dan XML, login customer, filter, negative case). Akun login ada di Variables collection (`username1`, `password1`, dst). Jalankan berurutan pada database kosong karena ada ketergantungan id.
-
 ## Struktur folder
 
 - `app/Models` : Customer, Order
